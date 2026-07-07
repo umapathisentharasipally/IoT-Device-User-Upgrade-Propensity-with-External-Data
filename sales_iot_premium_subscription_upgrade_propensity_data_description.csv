@@ -1,0 +1,10 @@
+Column Name,Description
+Account_ID,Unique identifier for the customer account.
+Base_Hardware,The initial physical product purchased. Some hardware (like cameras) drives more data usage than others (like hubs).
+Connected_Device_Count,Number of IoT units associated with the account. More devices = higher data pressure.
+Avg_Monthly_Data_Usage_GB,"The volume of data transmitted to the cloud. The current ""Free Tier"" limit is 5GB."
+Data_Tier_Ceiling_Hits_6M,Key Feature. How often the user almost ran out of data in the last 6 months.
+Upgrade_Page_Views_30D,Behavioral intent signal. Did they look at the price of the Premium plan?
+Propensity_Score_Calculated,Internal score (0-100) estimating the likelihood of a subscription purchase.
+Marketing_Action_Segment,"Target Variable (Classification). Determines if Sales should call, email, or leave them alone."
+Actual_Upgrade_Occurred,Target Variable (Binary). Whether the user actually paid for the Premium plan (1) or stayed on Basic (0).

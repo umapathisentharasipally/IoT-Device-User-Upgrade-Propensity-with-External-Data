@@ -15,7 +15,6 @@ np.random.seed(RANDOM_SEED)
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
-
 def generate_dataset(n_rows: int = N_ROWS):
     account_ids = [f"ACC{str(i).zfill(7)}" for i in range(1, n_rows + 1)]
 
